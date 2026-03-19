@@ -11,7 +11,7 @@ import PlaySongButtonComponent from "../components/PlaySongButtonComponent";
 function MainPage(){
     const [searchParams] = useSearchParams();
     const kepada = searchParams.get("kepada") ? decodeURIComponent(searchParams.get("kepada")) : "";
-    const [undanganOpen,setUndangan] = useState(true);
+    const [undanganOpen,setUndangan] = useState(false);
 
 
     return(

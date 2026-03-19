@@ -23,7 +23,7 @@ function PlaySongButtonComponent(){
  return(
     <div className="fixed  bottom-5 right-5 z-50">
         <audio ref={audioRef} loop autoPlay>
-            <source src={weddingSong} type="audio/mpeg" />
+            <source src={weddingSong} type="audio/mp4" />
         </audio>
         <button className="bg-white  p-4 rounded-full" onClick={() => toogleMute()}>
            {isMuted ? (
