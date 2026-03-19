@@ -12,7 +12,7 @@ function CoupleInfoComponent() {
           Maha Esa, kami bermaksud mengundang Bapak/ Ibu/ Saudara/ i pada
           Upacara Manusa Yadnya Pawiwahan putra dan putri kami.
         </label>
-        <div className="flex pt-10 flex-row max-md:flex-col justify-between justify-items-center">
+        <div className="flex pt-10 flex-row max-md:flex-col items-center justify-center">
           <div className="flex-col flex-2 justify-items-center">
             <img
               src={maleImage}
