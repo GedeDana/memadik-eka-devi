@@ -26,7 +26,7 @@ function CommentPage() {
 
   return (
     <div
-      className="h-250 max-sm:h-280 pt-10  bg-[position:center_50%] bg-cover flex flex-col"
+      className="h-250 max-sm:h-280 pt-10  bg-[position:center_50%] bg-cover flex flex-col justify-items-center items-center text-center"
       style={{ backgroundImage: `url(${copleCover})` }}
     >
       <CreateCommentComponent createComment={createComment} />

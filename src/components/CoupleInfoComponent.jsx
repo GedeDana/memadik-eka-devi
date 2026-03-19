@@ -5,7 +5,7 @@ import copleCover from "../assets/images/GKP_0301.JPG";
 function CoupleInfoComponent() {
   return (
     <div className="bg-cremcustom  h-200  max-md:h-430 pt-10 px-10 bg-cover bg-center" style={{ backgroundImage: `url(${copleCover})` }}>
-      <div className="flex-row flex-auto justify-items-center place-content-centers">
+      <div className="flex-row flex-auto text-center justify-items-center place-content-centers">
         <h1 className="text-whitecustom title text-5xl pt-2 max-sm:text-4xl">Om Swastiyastu</h1>
         <label className="block title-plex-sans  text-whitecustom pt-5">
           Atas Asung Kertha Wara Nugraha Ida Sang Hyang Widhi Wasa/ Tuhan Yang
