@@ -10,10 +10,10 @@ function CoupleInfoComponent() {
         <label className="block title-plex-sans  text-whitecustom pt-5">
           Atas Asung Kertha Wara Nugraha Ida Sang Hyang Widhi Wasa/ Tuhan Yang
           Maha Esa, kami bermaksud mengundang Bapak/ Ibu/ Saudara/ i pada
-          Upacara Manusa Yadnya Pawiwahan putra dan putri kami.
+          Upacara Memadik putra dan putri kami.
         </label>
-        <div className="flex pt-10 flex-row max-md:flex-col items-center justify-center">
-          <div className="flex-col flex-2 justify-items-center">
+        <div className="flex pt-10 flex-row max-md:flex-col items-baseline max-md:items-center  justify-center">
+          <div className="flex-col flex-2 justify-items-center justify-center max-md:items-center">
             <img
               src={maleImage}
               className="w-80 h-80  rounded-full object-cover border-5 border-solid border-whitecustom drop-shadow-md/30"
@@ -37,7 +37,7 @@ function CoupleInfoComponent() {
               className="h-50  text-whitecustom"
             />
           </div>
-          <div className="flex-col flex-2 justify-items-center">
+          <div className="flex-col flex-2 justify-items-center justify-center max-md:items-center ">
             <img
               src={femaleImage}
               className="w-80 h-80 rounded-full object-cover  border-5 border-solid border-whitecustom drop-shadow-md/30"
