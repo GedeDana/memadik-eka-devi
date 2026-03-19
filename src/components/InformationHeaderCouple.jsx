@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { countDownDate } from "../utils/helper";
 import { IoHeartCircleOutline } from "react-icons/io5";
-import copleCover from "../assets/images/GKP_0596.JPG";
+import copleCover from "../assets/images/GKP_0596.jpg";
 function InformationHeaderCouple({kepada, undanganClick}) {
   const [timeLeft, setTimeLeft] = useState(countDownDate("2026-04-13"));
 
