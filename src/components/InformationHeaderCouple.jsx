@@ -14,8 +14,8 @@ function InformationHeaderCouple({kepada, undanganClick}) {
 
 
   return (
-    <div className="h-screen  py-10  bg-cover bg-center max-sm:bg-fill max-sm:bg-no-repeat flex  items-center justify-center" style={{ backgroundImage: `url(${copleCover})` }}>
-      <div className="flex:row text-center flex-auto items-center justify-center place-content-centers  max-sm:scale-70 max-sm:p-10">
+    <div className="h-screen  py-10  bg-cover bg-center max-sm:bg-fill max-sm:bg-no-repeat flex  items-center justify-center " style={{ backgroundImage: `url(${copleCover})` }}>
+      <div className="flex flex-col items-center justify-center text-center max-sm:scale-75 px-4">
         <h2 className="text-whitecustom title-plex-sans text-2xl pt-3">Undangan Memadik </h2>
         <h1 className="text-whitecustom title text-6xl pt-10">Eka & Devi</h1>
         <p className="text-whitecustom title-plex-sans text-inline pt-4">Kpd Bpk/Ibu/Saudara/i</p>
