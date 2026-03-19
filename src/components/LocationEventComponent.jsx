@@ -14,7 +14,7 @@ function LocationEventComponent() {
         <div class="w-full h-px bg-white my-6"></div>
       </div>
       <div className="text-center flex flex-col px-30 gap-x-10">
-        <div className="justify-items-center place-content-centers text-center shadow-sm  p-6 mt-15 border-whitecustom border-3 rounded-lg w-180  max-md:w-150 max-sm:w-80 max-sm:h-85 h-80 drop-shadow-md/30 ">
+        <div className="flex flex-col items-center justify-center text-center shadow-sm  p-6 mt-15 border-whitecustom border-3 rounded-lg w-180  max-md:w-150 max-sm:w-80 max-sm:h-85 h-80 drop-shadow-md/30 ">
           <IoCalendarOutline className="text-center text-5xl text-whitecustom" />
           <h1 className="block text-center title-plex-sans text-2xl font-bold text-whitecustom pt-3">
             Memadik

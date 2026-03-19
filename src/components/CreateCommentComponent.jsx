@@ -4,7 +4,7 @@ function CreateCommentComponent({ createComment }) {
   const [name, setName] = useState("");
   const [message, setMessage] = useState("");
   return (
-    <div className="flex-col justify-items-center pt-5" >
+    <div className="flex-col justify-items-center  pt-5" >
       <h2 className="title text-whitecustom text-5xl max-sm:text-4xl">
         Berilah Ucapan
       </h2>
