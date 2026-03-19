@@ -1,0 +1,74 @@
+@import "tailwindcss";
+
+
+/*
+Source - https://stackoverflow.com/a
+Posted by Susmit Ullas
+Retrieved 2025-12-30, License - CC BY-SA 4.0
+*/
+
+@import "tailwindcss";
+@theme {
+  --color-whitecustom : #F2F2F2;
+  --color-cremcustom : #EBD5D5;
+  --color-pinkcustom : #C56A5B;
+  --color-browncustom : #685454;
+  --color-redcustom : #685454;
+  --color-blackcustom: #2A363B
+}
+
+@layer base {
+
+  *,
+  *::before,
+  *::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  /* For Firefox. */
+
+}
+
+@font-face {
+  font-family: "Borel";
+  src: url('./assets/fonts/Borel/Borel-Regular.ttf') format("truetype");
+  font-weight: bold;
+  font-style: bold;
+}
+
+@font-face {
+  font-family: "IBM-Plex-Sans";
+  src: url('./assets/fonts/IBM_Plex_Sans/IBMPlexSans-VariableFont_wdth,wght.ttf') format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+.title {
+  font-family: "Borel";
+}
+
+.title-plex-sans {
+  font-family: "IBM-Plex-Sans";
+}
+
+.marquee-container {
+  overflow: hidden;
+  width: 100%;
+}
+
+.marquee-track {
+  display: flex;
+  gap: 40px;
+  width: max-content;
+  animation: marquee 30s linear infinite;
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
