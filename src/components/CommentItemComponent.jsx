@@ -20,7 +20,7 @@ function CommentItemComponent({ comment }) {
          <IoMdTime  className="pl-2 text-2xl"/>
           <label className="pl-2 text-sm"> {statusCreateComment}</label>
         </div>
-      <p className="px-5 pt-2  text-whitecustom break-all text-balance">{comment.comment}</p>
+      <p className="px-5 pt-2  text-whitecustom break-normal whitespace-normal">{comment.comment}</p>
     </div>
   );
 }
