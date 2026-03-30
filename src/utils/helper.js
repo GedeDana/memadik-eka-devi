@@ -1,8 +1,8 @@
 function countDownDate(targetDate){
     const countDownDate = new Date(targetDate);
     const dateNow = new Date();
-    const distance = countDownDate - dateNow;
-
+    let distance = countDownDate - dateNow;
+    if (distance < 0) distance = 0;
     return {
         days : Math.floor(distance / (1000 * 60 * 60 * 24)),
         hours : Math.floor((distance / (1000 * 60 * 60)) % 24),
