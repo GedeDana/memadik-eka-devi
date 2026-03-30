@@ -4,7 +4,7 @@ import { changeFormatDateStatusThread } from "../utils/helper";
 function CommentItemComponent({ comment }) {
    const statusCreateComment = changeFormatDateStatusThread(comment.createdAt);
   return (
-    <div className="max-sm:w-100 flex-col  shadow-sm p-2 mt-4 border-whitecustom border-3 rounded-lg w-screen h-63 drop-shadow-md/30 ">
+    <div className="max-sm:w-100 flex-col  shadow-sm p-2 mt-4 border-whitecustom border-3 rounded-lg w-screen h-63 drop-shadow-md/30 max-sm:pb-70">
       <div className="flex flex-row pl-5 pt-5 break-all">
         <div className="">
           <img
@@ -20,7 +20,7 @@ function CommentItemComponent({ comment }) {
          <IoMdTime  className="pl-2 text-2xl"/>
           <label className="pl-2 text-sm"> {statusCreateComment}</label>
         </div>
-      <p className="px-5 pt-2  text-whitecustom break-all">{comment.comment}</p>
+      <p className="px-5 pt-2  text-whitecustom break-all text-balance">{comment.comment}</p>
     </div>
   );
 }
