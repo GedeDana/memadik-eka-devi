@@ -61,7 +61,7 @@ Retrieved 2025-12-30, License - CC BY-SA 4.0
   display: flex;
   gap: 40px;
   width: max-content;
-  animation: marquee 120s linear infinite;
+  animation: marquee 80s linear infinite;
 }
 
 @keyframes marquee {
